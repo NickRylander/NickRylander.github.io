@@ -1,11 +1,11 @@
 # Site settings
 author: Nicholas van Zuiden-Rylander
-title: 
+title: Nick's Beginner Blog
 header-img: img/home-bg.png
 email: nick.rylander@outlook.com
 copyright_name: Nicholas van Zuiden-Rylander
 description: > # this means to ignore newlines until "baseurl:"
-  
+  From Beginner to Pro
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  NickRylander
