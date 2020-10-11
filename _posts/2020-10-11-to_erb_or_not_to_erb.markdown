@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "To ERB or not to ERB?"
-date:       2020-10-11 15:59:31 +0000
+date:       2020-10-11 11:59:32 -0400
 permalink:  to_erb_or_not_to_erb
 ---
 
