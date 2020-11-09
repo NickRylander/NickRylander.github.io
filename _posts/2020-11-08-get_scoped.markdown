@@ -12,7 +12,9 @@ Creating scope methods can be done in multiple different ways. That being said, 
 
 ```
 class Song < Application Record
+
 	# scope method goes here
+	
 end
 ```
 
@@ -20,7 +22,9 @@ You could make the scope using the standard form of method building:
 
 ```
 def self.scope_name
+
 	# query goes here
+	
 end
 ```
 
@@ -42,9 +46,11 @@ Controller:
 
 ```
 class SongsController < Application Controller
+
    def index
 		@long_song = Song.longest_song
 	end
+	
 end 
 ```
 
