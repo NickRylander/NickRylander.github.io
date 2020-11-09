@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Get Scoped"
-date:       2020-11-09 04:53:18 +0000
+date:       2020-11-08 23:53:19 -0500
 permalink:  get_scoped
 ---
 
@@ -36,13 +36,13 @@ This is calling the scope method I aptly name `longest_song` and set the query t
 
 Controller: 
 
-```class SongsController < Application Controller
+``` class SongsController < Application Controller
 
 	def index
 		@long_song = Song.longest_song
 	end
 
-end```
+end ```
 
 View:
 
