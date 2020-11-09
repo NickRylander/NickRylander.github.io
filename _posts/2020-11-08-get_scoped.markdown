@@ -36,12 +36,10 @@ This is calling the scope method I aptly name `longest_song` and set the query t
 
 Controller: 
 
-``` class SongsController < Application Controller
-
-	def index
+```class SongsController < Application Controller
+   def index
 		@long_song = Song.longest_song
 	end
-
 end ```
 
 View:
