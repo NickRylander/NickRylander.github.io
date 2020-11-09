@@ -10,15 +10,19 @@ Scope methods are incredible in Rails, and keeps your code DRY (Don’t Repeat Y
 
 Creating scope methods can be done in multiple different ways. That being said, you must define your scope in the model in which you are trying to query the data. In my case, this means I would have to write it in my `Song.rb` model. 
 
-```class Song < Application Record
+```
+class Song < Application Record
 	# scope method goes here
-End```
+end
+```
 
 You could make the scope using the standard form of method building:
 
-```def self.scope_name
+```
+def self.scope_name
 	# query goes here
-End```
+end
+```
 
 Or you could make it using a little more syntactical sugar:
 
@@ -36,13 +40,13 @@ This is calling the scope method I aptly name `longest_song` and set the query t
 
 Controller: 
 
-```class SongsController < Application Controller
-
+```
+class SongsController < Application Controller
    def index
 		@long_song = Song.longest_song
 	end
-	
-end ```
+end 
+```
 
 View:
 
